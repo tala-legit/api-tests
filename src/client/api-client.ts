@@ -1,5 +1,6 @@
 import axios from "axios";
-import { configManager, logger, TIMEOUTS } from "../config";
+import { configManager, TIMEOUTS } from "../config";
+import { logger } from "../logger";
 
 /**
  * Create a pre configured axios instance.

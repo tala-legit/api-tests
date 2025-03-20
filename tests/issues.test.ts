@@ -1,5 +1,6 @@
-import { logger, TIMEOUTS } from "../src/config";
+import { TIMEOUTS } from "../src/config";
 import { getAllIssues } from "../src/utils";
+import { logger } from "../src/logger";
 
 /**
  * Test suite validating Issues retrieval with pagination.

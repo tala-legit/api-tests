@@ -1,5 +1,6 @@
-import { logger, TIMEOUTS } from "../src/config";
+import { TIMEOUTS } from "../src/config";
 import { getAllProductUnits } from "../src/utils";
+import { logger } from "../src/logger";
 
 /**
  * Test suite validating Product Units retrieval with pagination.
